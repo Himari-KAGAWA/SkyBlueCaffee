@@ -12,7 +12,8 @@ body {
 .coution {
   width: 350px;
   text-align: center;
-  border: 1px solid red;
+  border: 2px solid red;
+  color: red;
 }
 
 /* header */
@@ -190,6 +191,11 @@ footer {
 @media (min-width: 768px) {
 
   /* header */
+  .coution {
+    width: 250px;
+    font-size: 10px;
+  }
+
   header {
     height: 156px;
   }
